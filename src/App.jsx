@@ -1,6 +1,9 @@
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import ProjectGrid from "./components/ProjectGrid"
+import About from "./components/About"
+import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 function App() {
 
   return (
@@ -8,8 +11,11 @@ function App() {
       <Header/>
       <main>
         <Hero/>
-        <ProjectGrid/> 
-      </main>       
+        <ProjectGrid/>
+        <About/> 
+        <Contact/>
+      </main>   
+      <Footer/>
     </>
   )
 }
