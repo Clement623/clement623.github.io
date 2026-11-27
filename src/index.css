@@ -1,0 +1,45 @@
+:root {
+  --police-titre: "Bricolage Grotesque", "Trebuchet MS", system-ui;
+  --police-texte: "DM Sans", "Segoe UI", system-ui;
+  --couleur-principale: #C9235B;
+  --couleur-principale-survol: #A90046;
+  --couleur-accent: #7552DB;
+  --fond: #FFF8F4;
+  --surface: #FFFFFF;
+  --encre: #2F182D;
+  --encre-douce: #624D60;
+  --trait: #E3D6E1;
+  --aplat-peche: #FFE2CB;
+  --aplat-lilas: #E9E4FF;
+  --aplat-menthe: #CAF3E0;
+  --aplat-citron: #FBF1B2;
+  --aplat-rose: #FEDFE2;
+
+}
+
+body {
+    font-family: var(--police-texte);
+    margin: 0;
+    background-color: var(--fond);
+    color: var(--encre);
+    line-height: 1.6;
+    font-size: 18px;
+
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--police-titre);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: var(--couleur-principale);
+}
+
