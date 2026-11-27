@@ -1,0 +1,12 @@
+.corps{
+    padding: 16px 24px 16px 24px;
+}
+
+.grille {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    list-style: none;
+    margin: 0; 
+    padding: 0;
+}

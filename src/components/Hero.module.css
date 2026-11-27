@@ -1,7 +1,7 @@
 .corps{
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 48px;
     padding: 16px 24px 16px 24px;
 }
 
@@ -31,7 +31,7 @@
     border: 2px solid var(--encre)
 }
 .menu .buttonProjet:hover {
-    color:var(--encre)
+    background-color: var(--couleur-principale-survol);
 }
 
 .menu .buttonContact:hover {
@@ -41,4 +41,11 @@
 
 .blocGauche {
     flex: 1
+}
+
+.pdp {
+    border-radius: 50%;
+    width: 380px;
+    height: 380px;
+    flex-shrink: 0;
 }

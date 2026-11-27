@@ -11,7 +11,7 @@ function Hero() {
                 <li><a href="#contact" className={styles.buttonContact}>Me contacter</a></li>
             </ul>
             </div>
-            <img src="/images/" alt="Photo de profil" />
+            <img src="/images/photo-profil.jpeg" alt="Photo de profil" className={styles.pdp} />
         </section>
     )
 }

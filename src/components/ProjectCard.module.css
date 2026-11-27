@@ -1,0 +1,36 @@
+.card {
+    background-color: var(--surface);
+    border: 1px solid var(--trait) ;
+    border-radius: 28px;
+    padding: 16px;
+    height: 100%;
+}
+
+.imgCard {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 20px;
+    background-color: var(--aplat-lilas);
+    
+}
+
+.tag {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.tag li {
+    padding: 4px 12px;
+    border-radius: 999px;
+    border: 1px solid var(--trait);
+    font-size: 14px;
+}
+
+.summary {
+    color: var(--encre-douce)
+}

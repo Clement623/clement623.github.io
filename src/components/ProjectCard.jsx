@@ -1,10 +1,11 @@
+import styles from "./ProjectCard.module.css"
 function ProjectCard({image, imageAlt, title, summary, tags, slug}) {
     return (
-        <article>
-            <img src={image} alt={imageAlt}/>
+        <article className={styles.card}>
+            <img src={image} alt={imageAlt} className={styles.imgCard}/>
             <h3>{title}</h3>
-            <p>{summary}</p>
-            <ul>
+            <p className={styles.summary}>{summary}</p>
+            <ul className={styles.tag}>
                 {tags.map((tag) => (
                     <li key={tag}>{tag}</li>
                 ))}
